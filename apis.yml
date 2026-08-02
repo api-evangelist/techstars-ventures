@@ -1,8 +1,26 @@
 aid: techstars-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/techstars-ventures.png
 name: Techstars Ventures
-description: 'Techstars Ventures is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Techstars Ventures is the venture-capital arm of Techstars, the global
+  pre-seed accelerator and investor founded in 2006 in Boulder, Colorado. Techstars
+  backs early-stage founders with capital, three months of intensive mentorship, and
+  access to a worldwide network of investors, operators, and corporate partners across
+  accelerator programs in cities including Boulder, Boston, Chicago, London, New York,
+  and Tokyo. Its portfolio spans fintech, health, critical infrastructure, and software,
+  and includes companies such as Uber, Twilio, ClassPass, DigitalOcean, Chainalysis,
+  and Remitly. This profile was surfaced as a portfolio company of foundry-group and
+  enriched into the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/techstars-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Venture Capital
+- Accelerator
+- Startups
+- Investment
+- Pre-Seed
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.techstars.com
+- type: Portfolio
+  url: https://www.techstars.com/portfolio
+- type: Blog
+  url: https://www.techstars.com/blog
+- type: About
+  url: https://www.techstars.com/about
+- type: SignUp
+  url: https://apply.techstars.com/
+- type: HelpCenter
+  url: https://help.techstars.com/support/home
+- type: TermsOfService
+  url: https://www.techstars.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.techstars.com/privacy-policy
+- type: DomainSecurity
+  url: security/techstars-ventures-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
